@@ -1,6 +1,6 @@
 {
   "name": "angularx-flatpickr-months",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "An angular 5.0+ wrapper for flatpickr",
   "scripts": {
     "start": "concurrently --raw \"webpack-dev-server --open\" \"npm run test:watch\"",
