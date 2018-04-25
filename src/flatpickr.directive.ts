@@ -162,6 +162,11 @@ export class FlatpickrDirective
   @Input() shorthandCurrentMonth: boolean;
 
   /**
+   * Show multiple months
+   */
+  @Input() showMonths: number;
+
+  /**
    * Position the calendar inside the wrapper and next to the input element. (Leave `false` unless you know what you're doing).
    */
   @Input() static: boolean;
@@ -296,6 +301,7 @@ export class FlatpickrDirective
       parseDate: this.parseDate,
       prevArrow: this.prevArrow,
       shorthandCurrentMonth: this.shorthandCurrentMonth,
+      showMonths: this.showMonths,
       static: this.static,
       time24hr: this.time24hr,
       weekNumbers: this.weekNumbers,

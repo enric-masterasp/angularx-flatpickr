@@ -14,7 +14,7 @@ import {
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { Subject } from 'rxjs/Subject';
-import flatpickr from 'flatpickr';
+import * as flatpickr from 'flatpickr';
 import { FlatpickrModule } from '../src';
 import { By } from '@angular/platform-browser';
 import { FLATPICKR } from '../src';

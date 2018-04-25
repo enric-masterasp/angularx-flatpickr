@@ -129,6 +129,11 @@ export interface FlatpickrDefaultsInterface {
   shorthandCurrentMonth?: boolean;
 
   /**
+   * Show multiple months
+   */
+  showMonths?: number;
+
+  /**
    * Position the calendar inside the wrapper and next to the input element. (Leave `false` unless you know what you're doing).
    */
   static?: boolean;
@@ -296,6 +301,11 @@ export class FlatpickrDefaults implements FlatpickrDefaultsInterface {
    * Show the month using the shorthand version (ie, Sep instead of September).
    */
   shorthandCurrentMonth: boolean = false;
+
+  /**
+   * Show multiple months
+   */
+  showMonths: number = 1;
 
   /**
    * Position the calendar inside the wrapper and next to the input element. (Leave `false` unless you know what you're doing).
