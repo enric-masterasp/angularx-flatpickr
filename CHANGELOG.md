@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/enric-masterasp/angularx-flatpickr/compare/v5.0.0...v5.1.0) (2018-04-25)
+
+
+### Features
+
+* add [showMonths] input ([974422d](https://github.com/enric-masterasp/angularx-flatpickr/commit/974422d))
+
+
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/mattlewis92/angularx-flatpickr/compare/v4.0.1...v5.0.0) (2017-12-24)
 
